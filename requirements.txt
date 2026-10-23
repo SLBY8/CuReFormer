@@ -1,0 +1,12 @@
+faster-coco-eval>=1.6.5
+PyYAML
+tensorboard
+scipy
+calflops
+thop
+transformers
+timm==1.0.7
+einops
+prettytable
+PyWavelets
+
