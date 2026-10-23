@@ -18,8 +18,8 @@
 </p>
 
 # Environment
-	conda create -n SPEFormer
-	conda activate SPEFormer
+	conda create -n CuReFormer
+	conda activate CuReFormer
 	pip install -r requirements.txt
 # Training
 	CUDA_VISIBLE_DEVICES=0 python train.py
