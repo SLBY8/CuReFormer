@@ -24,9 +24,9 @@
 # Training
 	CUDA_VISIBLE_DEVICES=0 python train.py
 # Test
-	python train.py -c configs/yaml/dfine_hgnetv2_s_mg.yml --test-only -r best_stg2.pth
+	python train.py -c configs/dfine/dfine_hgnetv2_s_custom.yml --test-only -r best_stg2.pth
 # Aknowledgement
-	SPEFormer is built upon DFINE https://github.com/Peterande/D-FINE.
+	CuReFormer is built upon DFINE https://github.com/Peterande/D-FINE.
 	This work is based on three public datasets: VisDrone DOTA and DIOR.
 
 <!-- https://github.com/kyechan99/capsule-render -->
